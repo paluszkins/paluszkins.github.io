@@ -1,0 +1,114 @@
+.box {
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transform: (-25px -25px);
+  
+}
+
+#square1 {
+    background-color: pink;
+    right: 0;
+    bottom: 0;
+}
+
+#circle1 {
+    background-color: black;
+}
+
+#square2 {
+    background-color: gray;
+    right: 150px;
+    bottom: 0px;
+}
+
+#circle2 {
+    background-color: yellow;
+}
+
+#square3 {
+    background-color: blueviolet;
+    left: 0px;
+    bottom: 0px;
+}
+
+#circle3 {
+    background-color: darkorange;
+}
+
+#square4 {
+    background-color: darkorange;
+    right: 0px;
+    bottom: 150px;
+}
+
+#circle4 {
+    background-color: blue;
+}
+
+#square5 {
+    background-color: black;
+    left: 150px;
+    top: 150px;
+}
+
+#circle5 {
+    background-color: red;
+}
+
+#square6 {
+    background-color: yellow;
+    left: 0px;
+    bottom: 150px;
+}
+
+#circle6 {
+    background-color: green;
+}
+
+#square7 {
+    background-color: green;
+    right: 0px;
+    top: 0px;
+}
+
+#circle7 {
+    background-color: blueviolet;
+}
+
+#square8 {
+    background-color: blue;
+    left: 150px;
+    top: 0px;
+}
+
+#circle8 {
+    background-color: grey;
+}
+
+#square9 {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+
+#circle9 {
+    background-color: pink;
+}
