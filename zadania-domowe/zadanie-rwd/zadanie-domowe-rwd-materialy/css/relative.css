@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+    #header .man1 {
+        height: 50vh;
+        background-position: center center; 
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    #header section {
+        color: #000;
+        bottom: 0;
+        text-align: center;
+        padding: 20px;
+        
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1169px) {
+    #header .man1 {
+        display: none;
+        
+    }
+    
+    #header .man2 {
+        display: inline-block;
+        position: absolute;
+    }
+    
+    #header section {
+        position: relative;
+        z-index: 10;
+        right: 0;
+        
+    }
+}
