@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #98fb98;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+figure#img {
+    padding: 0;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #ff6f00;
+    opacity: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+
+div.box > .fas fa-shopping-cart {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 40%;
+}
+
+.image1 {
+    background-image: url(../img/product-1.jpg); 
+    
+}
+.image2 {
+    background-image: url(../img/product-2.jpg);
+   
+}
+
+.image3 {
+    background-image: url(../img/product-3.jpg);
+   
+}
+
+.image4 {
+    background-image: url(../img/product-4.jpg);
+    
+}
+
+.box:hover {
+    z-index: 10;
+    opacity: 0.4;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    
+}

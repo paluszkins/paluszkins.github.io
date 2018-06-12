@@ -1,0 +1,21 @@
+
+
+@media (max-width:480px) {
+    figure#img {
+        width: 25%;
+    }
+    
+    
+}
+
+@media (min-width:481px) and (max-width:992px) {
+    figure#img {
+        width: 49%;
+    }
+}
+
+@media (min-width:993px) {
+    figure#img {
+        width: 100%;
+    }
+}
