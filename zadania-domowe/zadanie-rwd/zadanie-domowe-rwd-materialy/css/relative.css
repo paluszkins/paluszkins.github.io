@@ -15,6 +15,9 @@
         bottom: 0;
         text-align: center;
         padding: 20px;
+        width: 60vw;
+        font-size: 0.5em;
+        left: 20%;
         
     }
 }
@@ -22,6 +25,7 @@
 @media (min-width: 993px) and (max-width: 1169px) {
     #header .man1 {
         display: none;
+        
         
     }
     
@@ -33,9 +37,10 @@
         height: 70vh;
     }
     
-    section {
+    #header section {
         position: relative;
         z-index: 10;
-        top: 5vh;    
+        left: 60%;
+        top: 15vh;
     }
 }
